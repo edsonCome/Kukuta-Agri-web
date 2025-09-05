@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos - KUKUTA AGRI</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="https://i.imgur.com/V8p3y3k.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" data-translate="nav_home">Início</a></li>
+                    <li><a href="sobre.html" data-translate="nav_about">Sobre Nós</a></li>
+                    <li><a href="produtos.html" class="active" data-translate="nav_products">Nossos Produtos</a></li>
+                    <li><a href="sustentabilidade.html" data-translate="nav_sustainability">Sustentabilidade</a></li>
+                    <li><a href="noticias.html" data-translate="nav_blog">Blog</a></li>
+                    <li><a href="contacto.html" data-translate="nav_contact">Contactos</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="contacto.html" class="btn btn-green btn-header" data-translate="nav_learn_more">Saber mais</a>
+                    </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html" data-translate="nav_home">Início</a> / <span data-translate="nav_products">Nossos Produtos</span>
+                </div>
+                <h1 data-translate="products_page_title">Explore a Nossa Colheita</h1>
+                <p data-translate="products_page_subtitle">Descubra a nossa seleção de produtos orgânicos, frescos e cultivados com paixão.</p>
+            </div>
+        </section>
+
+        <section class="section-light" id="filtros">
+            <div class="container">
+                <div class="search-filter-bar">
+                    <div class="search-box">
+                        <input type="text" id="produto-search" placeholder="Pesquisar produtos..." data-translate="products_search_placeholder">
+                        <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="filter-controls">
+                        <select id="categoria-filter">
+                            <option value="" data-translate="products_all_categories">Todas as Categorias</option>
+                            <option value="graos" data-translate="tag_grains_cereals">Grãos e Cereais</option>
+                            <option value="hortalicas" data-translate="tag_vegetables">Hortaliças</option>
+                            <option value="frutas" data-translate="tag_fruits">Frutas</option>
+                            <option value="tuberculos" data-translate="tag_tubers">Tubérculos</option>
+                        </select>
+                        <select id="sazonalidade-filter">
+                            <option value="" data-translate="products_seasonality">Sazonalidade</option>
+                            <option value="ano-inteiro" data-translate="products_season_all_year">Ano Inteiro</option>
+                            <option value="epoca-chuvas" data-translate="products_season_rainy">Época das Chuvas</option>
+                            <option value="epoca-seca" data-translate="products_season_dry">Época Seca</option>
+                        </select>
+                    </div>
+                     <div class="sort-controls">
+                         <select id="sort-select">
+                             <option value="populares" data-translate="products_sort_popular">Ordenar por: Mais Populares</option>
+                             <option value="nome-asc" data-translate="products_sort_name_asc">Nome (A-Z)</option>
+                             <option value="nome-desc" data-translate="products_sort_name_desc">Nome (Z-A)</option>
+                             <option value="preco-asc" data-translate="products_sort_price_asc">Preço (Baixo a Alto)</option>
+                             <option value="preco-desc" data-translate="products_sort_price_desc">Preço (Alto a Baixo)</option>
+                         </select>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="produtos-lista">
+            <div class="container">
+                <div class="produtos-grid" id="produtos-container">
+                    
+                    <div class="product-card fade-in" data-category="graos">
+                        <img src="https://humusbio.pt/wp-content/uploads/2020/11/IMG_6059-rotated-800x800.jpeg" alt="Feijão Manteiga">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_feijao_name">Feijão Manteiga Premium</h3>
+                                <span class="tag green" data-translate="tag_grains">Grãos</span>
+                            </div>
+                            <p class="description" data-translate="product_feijao_short_desc">Textura cremosa e sabor rico, ideal para pratos tradicionais moçambicanos.</p>
+                            
+                            <p class="location" data-translate="product_feijao_origin"><i class="fas fa-map-marker-alt"></i> Origem: Manica</p>
+                            <div class="product-actions">
+                                <button class="btn btn-green btn-full view-details-btn" data-translate="btn_view_details">
+                                 Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card fade-in" data-category="hortalicas">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZnfZciF2_enFNMt7By5nYEXFRQG0jtC9VOA&s" alt="Tomates Frescos">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_tomate_name">Tomate Cereja Doce</h3>
+                                <span class="tag brown" data-translate="tag_vegetables">Hortaliças</span>
+                            </div>
+                            <p class="description" data-translate="product_tomate_short_desc">Doces e suculentos, perfeitos para saladas, molhos ou como snack saudável.</p>
+                            
+                            <p class="location" data-translate="product_tomate_origin"><i class="fas fa-map-marker-alt"></i> Origem: Maputo</p>
+                            <div class="product-actions">
+                                <button class="btn btn-green btn-full view-details-btn" data-translate="btn_view_details">
+                                    Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in" data-category="graos">
+                        <img src="https://www.soflor.com.br/wp-content/uploads/2025/04/milho-branco.jpg" alt="Milho">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_milho_name">Milho Branco Orgânico</h3>
+                                <span class="tag green" data-translate="tag_cereals">Cereais</span>
+                            </div>
+                            <p class="description" data-translate="product_milho_short_desc">A base da nossa alimentação, 100% orgânico para uma xima nutritiva e saborosa.</p>
+                            
+                            <p class="location" data-translate="product_milho_origin"><i class="fas fa-map-marker-alt"></i> Origem: Zambézia</p>
+                            <div class="product-actions">
+                                <button class="btn btn-green btn-full view-details-btn" data-translate="btn_view_details">
+                                 Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in" data-category="hortalicas">
+                        <img src="https://images.unsplash.com/photo-1557844352-761f2565b576?q=80&w=1974&auto=format&fit=crop" alt="Alface Crespa">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_alface_name">Alface Crespa Fresh</h3>
+                                <span class="tag brown" data-translate="tag_vegetables">Hortaliças</span>
+                            </div>
+                            <p class="description" data-translate="product_alface_short_desc">Folhas crocantes e frescas, colhidas diariamente para garantir máxima qualidade.</p>
+                            
+                            <p class="location" data-translate="product_alface_origin"><i class="fas fa-map-marker-alt"></i> Origem: Maputo</p>
+                            <div class="product-actions">
+                                <button class="btn btn-green btn-full view-details-btn" data-translate="btn_view_details">
+                                 Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in" data-category="frutas">
+                        <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?q=80&w=1974&auto=format&fit=crop" alt="Manga">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_ananas_name">Ananás</h3>
+                                <span class="tag brown" data-translate="tag_fruits">Frutas</span>
+                            </div>
+                            <p class="description" data-translate="product_ananas_short_desc">Sumarenta e sem fibras, a rainha das frutas tropicais directamente do produtor.</p>
+                            
+                            <p class="location" data-translate="product_ananas_origin"><i class="fas fa-map-marker-alt"></i> Origem: Nampula</p>
+                            <div class="product-actions">
+                                <button class="btn btn-green btn-full view-details-btn" data-translate="btn_view_details">
+                                 Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in" data-category="tuberculos">
+                        <img src="https://hortas.info/sites/default/files/field/imagens/batata/batata0001.jpg" alt="Batata Reno">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_batata_name">Batata Reno Selecta</h3>
+                                <span class="tag green" data-translate="tag_tubers">Tubérculos</span>
+                            </div>
+                            <p class="description" data-translate="product_batata_short_desc">Versátil e saborosa, perfeita para cozer, fritar ou assar. Um clássico na cozinha.</p>
+                            
+                            <p class="location" data-translate="product_batata_origin"><i class="fas fa-map-marker-alt"></i> Origem: Tete</p>
+                            <div class="product-actions">
+                                <button class="btn btn-green btn-full view-details-btn" data-translate="btn_view_details">
+                                 Ver Detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination-wrapper">
+                    <div class="pagination">
+                        <button class="page-btn disabled"><i class="fas fa-chevron-left"></i></button>
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <span class="page-dots">...</span>
+                        <button class="page-btn">8</button>
+                        <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo-footer">KUKUTA AGRI</h3>
+                    <p data-translate="footer_description">Cultivando o futuro de Moçambique com produtos orgânicos de alta qualidade. The best for your home.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_navigation">Navegação</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html" data-translate="nav_about">Sobre Nós</a></li>
+                        <li><a href="produtos.html" data-translate="nav_products">Nossos Produtos</a></li>
+                        <li><a href="sustentabilidade.html" data-translate="nav_sustainability">Sustentabilidade</a></li>
+                        <li><a href="noticias.html" data-translate="nav_blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_support">Suporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="contacto.html" data-translate="nav_contact">Contactos</a></li>
+                        <li><a href="#" data-translate="footer_faq">FAQ</a></li>
+                        <li><a href="#" data-translate="footer_delivery_policy">Política de Entregas</a></li>
+                        <li><a href="#" data-translate="footer_terms">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_contact">Contacto</h3>
+                    <div class="contact-info">
+                        <p data-translate="footer_address"><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</p>
+                        <p><i class="fas fa-phone"></i> +258 84 000 0000</p>
+                        <p><i class="fas fa-envelope"></i> vendas@kukutaagri.co.mz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2025 KUKUTA AGRI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>

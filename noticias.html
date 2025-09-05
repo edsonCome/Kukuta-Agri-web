@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - KUKUTA AGRI</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="https://i.imgur.com/V8p3y3k.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" data-translate="nav_home">Início</a></li>
+                    <li><a href="sobre.html" data-translate="nav_about">Sobre Nós</a></li>
+                    <li><a href="produtos.html" data-translate="nav_products">Nossos Produtos</a></li>
+                    <li><a href="sustentabilidade.html" data-translate="nav_sustainability">Sustentabilidade</a></li>
+                    <li><a href="noticias.html" class="active" data-translate="nav_blog">Blog</a></li>
+                    <li><a href="contacto.html" data-translate="nav_contact">Contactos</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="contacto.html" class="btn btn-green btn-header" data-translate="nav_learn_more">Saber mais</a>
+                    </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html" data-translate="nav_home">Início</a> / <span data-translate="nav_blog">Blog</span>
+                </div>
+                <h1 data-translate="blog_page_title">Notícias e Dicas de Agricultura</h1>
+                <p data-translate="blog_page_subtitle">Mantenha-se informado sobre agricultura orgânica, receitas saudáveis e novidades da KUKUTA AGRI.</p>
+            </div>
+        </section>
+
+        <section class="section-light" id="blog-filtros">
+            <div class="container">
+                <div class="blog-filter-bar">
+                    <div class="blog-search">
+                        <input type="text" id="blog-search" placeholder="Pesquisar artigos..." data-translate="blog_search_placeholder">
+                        <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="blog-categories">
+                        <button class="category-btn active" data-category="all" data-translate="blog_category_all">Todos</button>
+                        <button class="category-btn" data-category="receitas" data-translate="blog_category_recipes">Receitas</button>
+                        <button class="category-btn" data-category="agricultura" data-translate="blog_category_agriculture">Agricultura</button>
+                        <button class="category-btn" data-category="sustentabilidade" data-translate="blog_category_sustainability">Sustentabilidade</button>
+                        <button class="category-btn" data-category="noticias" data-translate="blog_category_news">Notícias</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="blog-principal">
+            <div class="container">
+                <div class="featured-article fade-in">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop" alt="Agricultura orgânica em Moçambique">
+                    </div>
+                    <div class="featured-content">
+                        <span class="article-category sustentabilidade" data-translate="nav_sustainability">Sustentabilidade</span>
+                        <h2 data-translate="blog_featured_article_title">Como a Agricultura Orgânica Está Transformando Moçambique</h2>
+                        <p data-translate="blog_featured_article_desc">Descubra como as práticas agrícolas sustentáveis estão a revolucionar a produção alimentar no nosso país, beneficiando tanto os produtores quanto os consumidores.</p>
+                        <div class="article-meta">
+                            <span class="author"><i class="fas fa-user"></i> João Mahanjane</span>
+                            <span class="date"><i class="fas fa-calendar"></i> 15 Setembro, 2025</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> <span data-translate="blog_read_time">5 min de leitura</span></span>
+                        </div>
+                        <a href="#" class="btn btn-green" data-translate="blog_btn_read_full_article">Ler Artigo Completo</a>
+                    </div>
+                </div>
+
+                <div class="blog-grid" id="blog-container">
+                    <article class="blog-card fade-in" data-category="receitas">
+                        <div class="blog-image"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop" alt="Salada fresca"></div>
+                        <div class="blog-content">
+                            <span class="blog-category receitas" data-translate="blog_category_recipes">Receitas</span>
+                            <h3 data-translate="blog_article1_title">10 Saladas Refrescantes com Produtos Orgânicos</h3>
+                            <p data-translate="blog_article1_desc">Inspire-se com estas receitas saudáveis e saborosas usando os nossos produtos frescos da horta.</p>
+                            <div class="blog-meta">
+                                <span class="author"><i class="fas fa-user"></i> Ana Silva</span>
+                                <span class="date"><i class="fas fa-calendar"></i> 12 Setembro, 2025</span>
+                            </div>
+                            <a href="#" class="read-more" data-translate="btn_read_more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card fade-in" data-category="agricultura">
+                         <div class="blog-image"><img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=2069&auto=format&fit=crop" alt="Técnicas de plantio"></div>
+                        <div class="blog-content">
+                            <span class="blog-category agricultura" data-translate="blog_category_agriculture">Agricultura</span>
+                            <h3 data-translate="blog_article2_title">Técnicas de Compostagem para Pequenos Produtores</h3>
+                            <p data-translate="blog_article2_desc">Aprenda a criar o seu próprio adubo orgânico e melhore a qualidade do solo da sua machamba.</p>
+                             <div class="blog-meta">
+                                <span class="author"><i class="fas fa-user"></i> Carlos Tembe</span>
+                                <span class="date"><i class="fas fa-calendar"></i> 10 Setembro, 2025</span>
+                            </div>
+                            <a href="#" class="read-more" data-translate="btn_read_more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card fade-in" data-category="noticias">
+                         <div class="blog-image"><img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=2070&auto=format&fit=crop" alt="Expansão KUKUTA AGRI"></div>
+                        <div class="blog-content">
+                            <span class="blog-category noticias" data-translate="blog_category_news">Notícias</span>
+                            <h3 data-translate="blog_article3_title">KUKUTA AGRI Expande para Três Novas Províncias</h3>
+                            <p data-translate="blog_article3_desc">Anunciamos a nossa expansão para Cabo Delgado, Niassa e Gaza, levando produtos orgânicos a mais famílias.</p>
+                             <div class="blog-meta">
+                                <span class="author"><i class="fas fa-user"></i> Redacção</span>
+                                <span class="date"><i class="fas fa-calendar"></i> 8 Setembro, 2025</span>
+                            </div>
+                            <a href="#" class="read-more" data-translate="btn_read_more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="blog-pagination">
+                    <button class="page-btn disabled"><i class="fas fa-chevron-left"></i> <span data-translate="blog_pagination_previous">Anterior</span></button>
+                    <div class="page-numbers">
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                    </div>
+                    <button class="page-btn"><span data-translate="blog_pagination_next">Próximo</span> <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light" id="newsletter-blog">
+            <div class="container">
+                <div class="newsletter-box fade-in">
+                    <h2 data-translate="blog_newsletter_title">Subscreva a Nossa Newsletter</h2>
+                    <p data-translate="blog_newsletter_desc">Receba as últimas notícias, receitas e dicas de agricultura orgânica directamente no seu email!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Digite o seu email" required data-translate="newsletter_placeholder">
+                        <button type="submit" class="btn btn-brown" data-translate="newsletter_btn">Subscrever</button>
+                    </form>
+                    <small data-translate="newsletter_terms">Ao subscrever, concorda com os nossos termos de privacidade.</small>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo-footer">KUKUTA AGRI</h3>
+                    <p data-translate="footer_description">Cultivando o futuro de Moçambique com produtos orgânicos de alta qualidade. The best for your home.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_navigation">Navegação</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html" data-translate="nav_about">Sobre Nós</a></li>
+                        <li><a href="produtos.html" data-translate="nav_products">Nossos Produtos</a></li>
+                        <li><a href="sustentabilidade.html" data-translate="nav_sustainability">Sustentabilidade</a></li>
+                        <li><a href="noticias.html" data-translate="nav_blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_support">Suporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="contacto.html" data-translate="nav_contact">Contactos</a></li>
+                        <li><a href="#" data-translate="footer_faq">FAQ</a></li>
+                        <li><a href="#" data-translate="footer_delivery_policy">Política de Entregas</a></li>
+                        <li><a href="#" data-translate="footer_terms">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_contact">Contacto</h3>
+                    <div class="contact-info">
+                        <p data-translate="footer_address"><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</p>
+                        <p><i class="fas fa-phone"></i> +258 84 000 0000</p>
+                        <p><i class="fas fa-envelope"></i> vendas@kukutaagri.co.mz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2025 KUKUTA AGRI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

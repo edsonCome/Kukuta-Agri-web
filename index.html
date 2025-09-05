@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUKUTA AGRI - O Melhor Para a Sua Casa</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="https://i.imgur.com/V8p3y3k.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" class="active" data-translate="nav_home">Início</a></li>
+                    <li><a href="sobre.html" data-translate="nav_about">Sobre Nós</a></li>
+                    <li><a href="produtos.html" data-translate="nav_products">Nossos Produtos</a></li>
+                    <li><a href="sustentabilidade.html" data-translate="nav_sustainability">Sustentabilidade</a></li>
+                    <li><a href="noticias.html" data-translate="nav_blog">Blog</a></li>
+                    <li><a href="contacto.html" data-translate="nav_contact">Contactos</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="contacto.html" class="btn btn-green btn-header" data-translate="nav_learn_more">Saber mais</a>
+                    </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-carousel-container">
+                <div class="hero-carousel-slide active" 
+                     style="background-image: url('https://images.pexels.com/photos/14242188/pexels-photo-14242188.jpeg')"
+                     data-title-key="hero_slide1_title"
+                     data-subtitle-key="hero_slide1_subtitle"
+                     data-description-key="hero_slide1_description">
+                </div>
+                
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2074&auto=format&fit=crop')"
+                     data-title-key="hero_slide2_title"
+                     data-subtitle-key="hero_slide2_subtitle"
+                     data-description-key="hero_slide2_description">
+                </div>
+                
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=2069&auto=format&fit=crop')"
+                     data-title-key="hero_slide3_title"
+                     data-subtitle-key="hero_slide3_subtitle"
+                     data-description-key="hero_slide3_description">
+                </div>
+                
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?q=80&w=2125&auto=format&fit=crop')"
+                     data-title-key="hero_slide4_title"
+                     data-subtitle-key="hero_slide4_subtitle"
+                     data-description-key="hero_slide4_description">
+                </div>
+                
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop')"
+                     data-title-key="hero_slide5_title"
+                     data-subtitle-key="hero_slide5_subtitle"
+                     data-description-key="hero_slide5_description">
+                </div>
+            </div>
+            
+            <div class="hero-overlay"></div>
+            
+            <div class="container hero-content">
+                <h1 id="hero-title">
+                    <span data-translate="hero_title_main">Sabor que vem da terra</span>, 
+                    <span class="highlight" id="hero-subtitle" data-translate="hero_title_highlight">direto para a sua casa.</span>
+                </h1>
+                <p id="hero-description" data-translate="hero_slide1_description">Descubra a frescura e a qualidade dos produtos orgânicos da KUKUTA AGRI. Cultivados com paixão em Moçambique para alimentar a sua família.</p>
+                <div class="hero-actions">
+                    <a href="produtos.html" class="btn btn-primary" data-translate="hero_btn_products">
+                        <i class="fas fa-shopping-cart"></i> Ver Produtos
+                    </a>
+                    <a href="sobre.html" class="btn btn-secondary" data-translate="hero_btn_story">
+                        <i class="fas fa-leaf"></i> Nossa História
+                    </a>
+                </div>
+            </div>
+            
+            <button class="carousel-nav carousel-prev" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-nav carousel-next" aria-label="Próximo slide"><i class="fas fa-chevron-right"></i></button>
+            
+            <div class="carousel-controls">
+                <span class="carousel-dot active" data-slide="0"></span>
+                <span class="carousel-dot" data-slide="1"></span>
+                <span class="carousel-dot" data-slide="2"></span>
+                <span class="carousel-dot" data-slide="3"></span>
+                <span class="carousel-dot" data-slide="4"></span>
+            </div>
+            
+            <div class="carousel-progress"><div class="carousel-progress-bar"></div></div>
+        </section>
+
+        <section class="section section-light" id="diferenciais">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2 data-translate="differentials_title">Nossos Diferenciais</h2>
+                    <p data-translate="differentials_subtitle">O que torna a KUKUTA AGRI a sua melhor escolha</p>
+                </div>
+                <div class="grid">
+                    <div class="access-card fade-in">
+                        <div class="icon icon-green"><i class="fas fa-leaf"></i></div>
+                        <h3 data-translate="differential1_title">100% Orgânico</h3>
+                        <p data-translate="differential1_description">Produtos cultivados sem pesticidas, para uma vida mais saudável.</p>
+                        <a href="sustentabilidade.html" data-translate="differential1_link">Saiba mais →</a>
+                    </div>
+                    <div class="access-card fade-in">
+                        <div class="icon icon-brown"><i class="fas fa-hand-holding-heart"></i></div>
+                        <h3 data-translate="differential2_title">Produção Local</h3>
+                        <p data-translate="differential2_description">Apoiamos agricultores locais e fortalecemos a economia de Moçambique.</p>
+                        <a href="sobre.html" data-translate="differential2_link">Nossa Missão →</a>
+                    </div>
+                    <div class="access-card fade-in">
+                        <div class="icon icon-green"><i class="fas fa-shipping-fast"></i></div>
+                        <h3 data-translate="differential3_title">Frescura Garantida</h3>
+                        <p data-translate="differential3_description">Da nossa fazenda para a sua mesa no menor tempo possível.</p>
+                        <a href="produtos.html" data-translate="differential3_link">Ver Produtos Frescos →</a>
+                    </div>
+                    <div class="access-card fade-in">
+                        <div class="icon icon-brown"><i class="fas fa-seedling"></i></div>
+                        <h3 data-translate="differential4_title">Sustentabilidade</h3>
+                        <p data-translate="differential4_description">Práticas agrícolas que cuidam do meio ambiente e do futuro.</p>
+                        <a href="sustentabilidade.html" data-translate="differential4_link">Nossas Práticas →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="vantagens">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2 data-translate="advantages_title">Por Que Escolher KUKUTA AGRI?</h2>
+                </div>
+                <div class="vantagens-grid">
+                    <div class="vantagem-item fade-in">
+                        <div class="icon"><i class="fas fa-carrot"></i></div>
+                        <h3 data-translate="advantage1_title">Sabor Autêntico</h3>
+                        <p data-translate="advantage1_description">Redescubra o verdadeiro sabor dos alimentos, cultivados com cuidado e respeito pela natureidade.</p>
+                    </div>
+                    <div class="vantagem-item fade-in">
+                        <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3 data-translate="advantage2_title">Mais Saúde Para Si</h3>
+                        <p data-translate="advantage2_description">Alimentos livres de químicos, ricos em nutrientes essenciais para o seu bem-estar.</p>
+                    </div>
+                    <div class="vantagem-item fade-in">
+                        <div class="icon"><i class="fas fa-globe-africa"></i></div>
+                        <h3 data-translate="advantage3_title">Apoio à Comunidade</h3>
+                        <p data-translate="advantage3_description">Ao comprar connosco, você investe no desenvolvimento sustentável das comunidades agrícolas moçambicanas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light" id="produtos-destaque">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2 data-translate="featured_products_title">Produtos em Destaque</h2>
+                    <p data-translate="featured_products_subtitle">Conheça os nossos produtos mais procurados</p>
+                </div>
+                <div class="grid">
+                    <div class="home-product-card">
+                        <img src="https://www.mercadaonatural.com.br/resizer/view/373/373/false/true/10634.jpg" alt="Feijão Orgânico">
+                        <div class="content">
+                            <div class="header">
+                                <h3 data-translate="product_feijao_name">Feijão Manteiga Premium</h3>
+                                <span class="tag green" data-translate="tag_grains">Grãos</span>
+                            </div>
+                            <p class="description" data-translate="product_feijao_description">Nosso feijão mais vendido, conhecido pela sua textura cremosa e sabor inigualável. Perfeito para pratos tradicionais.</p>
+                            <p class="location" data-translate="product_feijao_origin"><i class="fas fa-map-marker-alt"></i> Origem: Manica</p>
+                        </div>
+                    </div>
+                    <div class="company-card fade-in">
+                        <img src="https://images.tcdn.com.br/img/img_prod/799330/tomate_cereja_1363_1_20200525120229.jpg" alt="Tomates Frescos">
+                        <div class="content">
+                             <div class="header">
+                                <h3 data-translate="product_tomate_name">Tomate Cereja Doce</h3>
+                                <span class="tag brown" data-translate="tag_vegetables">Hortaliças</span>
+                            </div>
+                            <p class="description" data-translate="product_tomate_description">Pequenos em tamanho, gigantes em sabor. Ideais para saladas, molhos ou como um snack saudável.</p>
+                            <p class="location" data-translate="product_tomate_origin"><i class="fas fa-map-marker-alt"></i> Origem: Maputo</p>
+                        </div>
+                    </div>
+                    <div class="company-card fade-in">
+                        <img src="https://assets.corteva.com/is/image/Corteva/IMG-ArtigoBlog-Hero-Ciclo-do-milho-influencia-na-escolha-da-semente-ideal?$articleHeader_desktop$" alt="Milho">
+                        <div class="content">
+                             <div class="header">
+                                <h3 data-translate="product_milho_name">Milho Branco Orgânico</h3>
+                                <span class="tag green" data-translate="tag_cereals">Cereais</span>
+                            </div>
+                            <p class="description" data-translate="product_milho_description">A base da nossa alimentação, agora 100% orgânica. Perfeito para uma xima nutritiva e saborosa.</p>
+                            <p class="location" data-translate="product_milho_origin"><i class="fas fa-map-marker-alt"></i> Origem: Zambézia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all-btn fade-in">
+                    <a href="produtos.html" class="btn btn-brown" data-translate="btn_view_all_products">Ver Todos os Produtos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="testemunhos">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2 data-translate="testimonials_title">O Que Dizem os Nossos Clientes</h2>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1599233179252-9e0a35b154a9?q=80&w=2070&auto=format&fit=crop" alt="Foto de Cliente Feliz">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text" data-translate="testimonial_text">"Desde que comecei a comprar na KUKUTA AGRI, a minha família redescobriu o prazer de comer vegetais. A frescura e o sabor são incomparáveis. Sinto-me bem por saber que estou a oferecer o melhor para eles."</p>
+                    <p class="testimonial-author">
+                        <span data-translate="testimonial_author">Ana Silva</span>
+                        <span data-translate="testimonial_location">Cliente Fiel, Maputo</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="cta">
+            <div class="container fade-in">
+                <div class="cta-container">
+                    <div class="cta-content">
+                        <h2 data-translate="cta_title">Junte-se à nossa comunidade</h2>
+                        <p data-translate="cta_description">Escolha produtos que fazem bem a si, à sua família e ao nosso país. Explore a nossa gama de produtos orgânicos hoje mesmo.</p>
+                        <ul>
+                            <li data-translate="cta_feature1">Produtos frescos e sazonais</li>
+                            <li data-translate="cta_feature2">Entrega em todo o país</li>
+                            <li data-translate="cta_feature3">Apoio direto a agricultores locais</li>
+                        </ul>
+                        <div class="cta-buttons">
+                            <a href="produtos.html" class="btn btn-cta-primary" data-translate="cta_btn_shop">Fazer Compras</a>
+                            <a href="sobre.html" class="btn btn-cta-secondary" data-translate="cta_btn_learn">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="cta-image">
+                        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2070&auto=format&fit=crop" alt="Agricultor a segurar produtos frescos">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light" id="newsletter">
+            <div class="container">
+                <div class="newsletter-box fade-in">
+                    <h2 data-translate="newsletter_title">Newsletter</h2>
+                    <p data-translate="newsletter_description">Subscreva para receber receitas, novidades e promoções exclusivas!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Digite o seu email" required data-translate="newsletter_placeholder">
+                        <button type="submit" class="btn btn-brown" data-translate="newsletter_btn">Subscrever</button>
+                    </form>
+                    <small data-translate="newsletter_terms">Ao subscrever, concorda com os nossos termos de privacidade.</small>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo-footer">KUKUTA AGRI</h3>
+                    <p data-translate="footer_description">Cultivando o futuro de Moçambique com produtos orgânicos de alta qualidade. The best for your home.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_navigation">Navegação</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html" data-translate="nav_about">Sobre Nós</a></li>
+                        <li><a href="produtos.html" data-translate="nav_products">Nossos Produtos</a></li>
+                        <li><a href="sustentabilidade.html" data-translate="nav_sustainability">Sustentabilidade</a></li>
+                        <li><a href="noticias.html" data-translate="nav_blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_support">Suporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="contacto.html" data-translate="nav_contact">Contactos</a></li>
+                        <li><a href="#" data-translate="footer_faq">FAQ</a></li>
+                        <li><a href="#" data-translate="footer_delivery_policy">Política de Entregas</a></li>
+                        <li><a href="#" data-translate="footer_terms">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer_contact">Contacto</h3>
+                    <div class="contact-info">
+                        <p data-translate="footer_address"><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</p>
+                        <p><i class="fas fa-phone"></i> +258 84 000 0000</p>
+                        <p><i class="fas fa-envelope"></i> vendas@kukutaagri.co.mz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2025 KUKUTA AGRI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
