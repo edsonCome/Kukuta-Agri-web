@@ -120,6 +120,96 @@ const translations = {
     product_batata_name: "Batata Reno Selecta",
     product_batata_short_desc: "Versátil e saborosa, perfeita para cozer, fritar ou assar. Um clássico na cozinha.",
     product_batata_origin: "Origem: Tete",
+    product_mandioca_name: "Mandioca Fresca",
+    product_mandioca_short_desc: "A base energética de Moçambique, perfeita para matapa ou farinha.",
+    product_mandioca_origin: "Origem: Inhambane",
+    product_batatadoce_name: "Batata-doce Laranja",
+    product_batatadoce_short_desc: "Naturalmente doce e rica em vitaminas, ideal para assar ou cozer.",
+    product_batatadoce_origin: "Origem: Gaza",
+    product_amendoim_name: "Amendoim Nacional",
+    product_amendoim_short_desc: "Rico em proteína e sabor, ótimo para caril de amendoim ou como snack.",
+    product_amendoim_origin: "Origem: Nampula",
+    product_couve_name: "Couve Tronchuda Orgânica",
+    product_couve_short_desc: "Folhas tenras e nutritivas, essenciais para uma refeição saudável e completa.",
+    product_couve_origin: "Origem: Manica",
+    product_cebola_name: "Cebola Roxa Intensa",
+    product_cebola_short_desc: "Sabor forte e cor vibrante, a base perfeita para qualquer refogado ou salada.",
+    product_cebola_origin: "Origem: Tete",
+    product_banana_name: "Banana Prata Doce",
+    product_banana_short_desc: "Doce na medida certa, uma fonte natural de potássio e energia para o seu dia.",
+    product_banana_origin: "Origem: Zambézia",
+    product_cenoura_name: "Cenoura Orgânica",
+    product_cenoura_short_desc: "Crocantes e doces, ricas em betacaroteno para uma visão saudável.",
+    product_cenoura_origin: "Origem: Maputo",
+    product_repolho_name: "Repolho Verde Fresco",
+    product_repolho_short_desc: "Versátil para saladas, sopas e pratos cozidos. Uma fonte de fibras.",
+    product_repolho_origin: "Origem: Manica",
+    product_pimento_name: "Pimento Tricolor",
+    product_pimento_short_desc: "Um mix colorido e saboroso para dar vida aos seus pratos.",
+    product_pimento_origin: "Origem: Sofala",
+    product_abobora_name: "Abóbora Manteiga",
+    product_abobora_short_desc: "Polpa cremosa e adocicada, perfeita para sopas e assados nutritivos.",
+    product_abobora_origin: "Origem: Gaza",
+    product_laranja_name: "Laranja Pera Doce",
+    product_laranja_short_desc: "Sumarentas e cheias de Vitamina C para reforçar a sua imunidade.",
+    product_laranja_origin: "Origem: Inhambane",
+    product_limao_name: "Limão Siciliano",
+    product_limao_short_desc: "Aroma intenso e sumo ácido, ideal para temperos, bebidas e sobremesas.",
+    product_limao_origin: "Origem: Manica",
+    product_gengibre_name: "Gengibre Fresco",
+    product_gengibre_short_desc: "Sabor picante e aromático com propriedades anti-inflamatórias. Ótimo para chás.",
+    product_gengibre_origin: "Origem: Sofala",
+    product_arroz_name: "Arroz Agulha Nacional",
+    product_arroz_short_desc: "O acompanhamento perfeito para qualquer prato moçambicano, soltinho e saboroso.",
+    product_arroz_origin: "Origem: Zambézia",
+    product_manga_name: "Manga Palmer Orgânica",
+    product_manga_short_desc: "Doce, suculenta e sem fibras, a rainha das frutas tropicais de Moçambique.",
+    product_manga_origin: "Origem: Nampula",
+    product_melancia_name: "Melancia Raida Fresca",
+    product_melancia_short_desc: "Refrescante e hidratante, perfeita para os dias quentes de verão.",
+    product_melancia_origin: "Origem: Gaza",
+    product_nhemba_name: "Feijão Nhemba Tradicional",
+    product_nhemba_short_desc: "Nutritivo e saboroso, essencial na culinária moçambicana para pratos ricos.",
+    product_nhemba_origin: "Origem: Tete",
+    product_quiabo_name: "Quiabo Verde e Tenro",
+    product_quiabo_short_desc: "Fresco e sem baba, perfeito para caris, sopas e acompanhamentos saborosos.",
+    product_quiabo_origin: "Origem: Inhambane",
+    product_beringela_name: "Berinjela Brilhante",
+    product_beringela_short_desc: "Firme e brilhante, perfeita para assados, guisados e pratos vegetarianos.",
+    product_beringela_origin: "Origem: Maputo",
+    product_pepino_name: "Pepino Crocante",
+    product_pepino_short_desc: "Refrescante e crocante, ideal para saladas de verão e sumos detox.",
+    product_pepino_origin: "Origem: Manica",
+    product_alho_name: "Alho Nacional",
+    product_alho_short_desc: "Aromático e picante, o tempero indispensável em qualquer cozinha moçambicana.",
+    product_alho_origin: "Origem: Tete",
+    product_mamao_name: "Mamão Papaia Doce",
+    product_mamao_short_desc: "Doce e macio, rico em vitaminas e enzimas digestivas para um pequeno-almoço saudável.",
+    product_mamao_origin: "Origem: Inhambane",
+    product_maracuja_name: "Maracujá Azedo",
+    product_maracuja_short_desc: "Sabor tropical intenso e azedinho, perfeito para sumos, mousses e sobremesas.",
+    product_maracuja_origin: "Origem: Manica",
+    product_caju_name: "Castanha de Caju",
+    product_caju_short_desc: "Castanha de caju torrada e salgada, um snack nutritivo e delicioso.",
+    product_caju_origin: "Origem: Nampula",
+    product_graobico_name: "Grão-de-bico",
+    product_graobico_short_desc: "Versátil e rico em proteína, ótimo para caril, saladas e húmus caseiro.",
+    product_graobico_origin: "Origem: Sofala",
+    product_piripiri_name: "Piri-piri Malagueta",
+    product_piripiri_short_desc: "Pequeno mas potente, o toque picante essencial para pratos com carácter moçambicano.",
+    product_piripiri_origin: "Origem: Cabo Delgado",
+    product_salsa_name: "Salsa Fresca",
+    product_salsa_short_desc: "Erva fresca e aromática, ideal para finalizar pratos, molhos e saladas.",
+    product_salsa_origin: "Origem: Maputo",
+    product_inhame_name: "Inhame Macio",
+    product_inhame_short_desc: "Textura suave e sabor terroso, uma excelente fonte de energia e fibras.",
+    product_inhame_origin: "Origem: Niassa",
+    product_feijaoverde_name: "Feijão Verde Crocante",
+    product_feijaoverde_short_desc: "Vagens tenras e crocantes, perfeitas para cozer a vapor ou saltear.",
+    product_feijaoverde_origin: "Origem: Manica",
+    product_lichia_name: "Lichia Doce",
+    product_lichia_short_desc: "Doce, suculenta e perfumada, uma fruta exótica e deliciosa para momentos especiais.",
+    product_lichia_origin: "Origem: Zambézia",
 
     // PÁGINA SOBRE NÓS
     about_page_title: "A Nossa História: Cultivando Saúde e Futuro",
@@ -278,7 +368,7 @@ const translations = {
   },
 
   en: {
-    // NAVIGATION
+    // NAVEGAÇÃO
     nav_home: "Home",
     nav_about: "About Us",
     nav_products: "Our Products",
@@ -287,7 +377,7 @@ const translations = {
     nav_contact: "Contact",
     nav_learn_more: "Learn more",
 
-    // HOMEPAGE
+    // PÁGINA INICIAL
     hero_title_main: "Flavor that comes from the earth",
     hero_title_highlight: "straight to your home.",
     hero_slide1_title: "Flavor that comes from the earth",
@@ -308,7 +398,7 @@ const translations = {
     hero_btn_products: "View Products",
     hero_btn_story: "Our Story",
 
-    // DIFFERENTIALS
+    // DIFERENCIAIS
     differentials_title: "Our Differentials",
     differentials_subtitle: "What makes KUKUTA AGRI your best choice",
     differential1_title: "100% Organic",
@@ -324,7 +414,7 @@ const translations = {
     differential4_description: "Agricultural practices that care for the environment and the future.",
     differential4_link: "Our Practices →",
 
-    // ADVANTAGES
+    // VANTAGENS
     advantages_title: "Why Choose KUKUTA AGRI?",
     advantage1_title: "Authentic Flavor",
     advantage1_description: "Rediscover the true taste of food, grown with care and respect for nature.",
@@ -333,7 +423,7 @@ const translations = {
     advantage3_title: "Community Support",
     advantage3_description: "By buying from us, you invest in the sustainable development of Mozambican agricultural communities.",
 
-    // FEATURED PRODUCTS (HOMEPAGE)
+    // PRODUTOS EM DESTAQUE (PÁGINA INICIAL)
     featured_products_title: "Featured Products",
     featured_products_subtitle: "Meet our most sought-after products",
     product_feijao_name: "Premium Butter Beans",
@@ -347,7 +437,7 @@ const translations = {
     product_milho_origin: "Origin: Zambézia",
     btn_view_all_products: "View All Products",
 
-    // TESTIMONIALS
+    // TESTEMUNHOS
     testimonials_title: "What Our Customers Say",
     testimonial_text: "Since I started buying from KUKUTA AGRI, my family has rediscovered the pleasure of eating vegetables. The freshness and flavor are incomparable. I feel good knowing I'm offering them the best.",
     testimonial_author: "Ana Silva",
@@ -369,7 +459,7 @@ const translations = {
     newsletter_btn: "Subscribe",
     newsletter_terms: "By subscribing, you agree to our privacy terms.",
 
-    // PRODUCTS PAGE
+    // PÁGINA DE PRODUTOS
     products_page_title: "Explore Our Harvest",
     products_page_subtitle: "Discover our selection of organic, fresh products grown with passion.",
     products_search_placeholder: "Search products...",
@@ -396,8 +486,98 @@ const translations = {
     product_batata_name: "Selecta Reno Potato",
     product_batata_short_desc: "Versatile and tasty, perfect for boiling, frying, or roasting. A kitchen classic.",
     product_batata_origin: "Origin: Tete",
+    product_mandioca_name: "Fresh Cassava",
+    product_mandioca_short_desc: "The energy base of Mozambique, perfect for matapa or flour.",
+    product_mandioca_origin: "Origin: Inhambane",
+    product_batatadoce_name: "Orange Sweet Potato",
+    product_batatadoce_short_desc: "Naturally sweet and rich in vitamins, ideal for roasting or boiling.",
+    product_batatadoce_origin: "Origin: Gaza",
+    product_amendoim_name: "National Peanut",
+    product_amendoim_short_desc: "Rich in protein and flavor, great for peanut curry or as a snack.",
+    product_amendoim_origin: "Origin: Nampula",
+    product_couve_name: "Organic Collard Greens",
+    product_couve_short_desc: "Tender and nutritious leaves, essential for a healthy and complete meal.",
+    product_couve_origin: "Origin: Manica",
+    product_cebola_name: "Intense Red Onion",
+    product_cebola_short_desc: "Strong flavor and vibrant color, the perfect base for any stir-fry or salad.",
+    product_cebola_origin: "Origin: Tete",
+    product_banana_name: "Sweet Silver Banana",
+    product_banana_short_desc: "Just the right amount of sweetness, a natural source of potassium and energy for your day.",
+    product_banana_origin: "Origin: Zambézia",
+    product_cenoura_name: "Organic Carrot",
+    product_cenoura_short_desc: "Crunchy and sweet, rich in beta-carotene for healthy vision.",
+    product_cenoura_origin: "Origin: Maputo",
+    product_repolho_name: "Fresh Green Cabbage",
+    product_repolho_short_desc: "Versatile for salads, soups, and cooked dishes. A source of fiber.",
+    product_repolho_origin: "Origin: Manica",
+    product_pimento_name: "Tricolor Bell Pepper",
+    product_pimento_short_desc: "A colorful and tasty mix to liven up your dishes.",
+    product_pimento_origin: "Origin: Sofala",
+    product_abobora_name: "Butternut Squash",
+    product_abobora_short_desc: "Creamy and sweet pulp, perfect for nutritious soups and roasts.",
+    product_abobora_origin: "Origin: Gaza",
+    product_laranja_name: "Sweet Pera Orange",
+    product_laranja_short_desc: "Juicy and full of Vitamin C to boost your immunity.",
+    product_laranja_origin: "Origin: Inhambane",
+    product_limao_name: "Sicilian Lemon",
+    product_limao_short_desc: "Intense aroma and acidic juice, ideal for seasonings, drinks, and desserts.",
+    product_limao_origin: "Origin: Manica",
+    product_gengibre_name: "Fresh Ginger",
+    product_gengibre_short_desc: "Spicy and aromatic flavor with anti-inflammatory properties. Great for teas.",
+    product_gengibre_origin: "Origin: Sofala",
+    product_arroz_name: "National Needle Rice",
+    product_arroz_short_desc: "The perfect accompaniment to any Mozambican dish, fluffy and tasty.",
+    product_arroz_origin: "Origin: Zambézia",
+    product_manga_name: "Organic Palmer Mango",
+    product_manga_short_desc: "Sweet, juicy, and fiberless, the queen of tropical fruits from Mozambique.",
+    product_manga_origin: "Origin: Nampula",
+    product_melancia_name: "Fresh Striped Watermelon",
+    product_melancia_short_desc: "Refreshing and hydrating, perfect for hot summer days.",
+    product_melancia_origin: "Origin: Gaza",
+    product_nhemba_name: "Traditional Cowpea Beans",
+    product_nhemba_short_desc: "Nutritious and tasty, essential in Mozambican cuisine for rich dishes.",
+    product_nhemba_origin: "Origin: Tete",
+    product_quiabo_name: "Tender Green Okra",
+    product_quiabo_short_desc: "Fresh and slime-free, perfect for curries, soups, and tasty side dishes.",
+    product_quiabo_origin: "Origin: Inhambane",
+    product_beringela_name: "Shiny Eggplant",
+    product_beringela_short_desc: "Firm and shiny, perfect for roasts, stews, and vegetarian dishes.",
+    product_beringela_origin: "Origin: Maputo",
+    product_pepino_name: "Crisp Cucumber",
+    product_pepino_short_desc: "Refreshing and crunchy, ideal for summer salads and detox juices.",
+    product_pepino_origin: "Origin: Manica",
+    product_alho_name: "National Garlic",
+    product_alho_short_desc: "Aromatic and pungent, the indispensable seasoning in any Mozambican kitchen.",
+    product_alho_origin: "Origin: Tete",
+    product_mamao_name: "Sweet Papaya",
+    product_mamao_short_desc: "Sweet and soft, rich in vitamins and digestive enzymes for a healthy breakfast.",
+    product_mamao_origin: "Origin: Inhambane",
+    product_maracuja_name: "Passion Fruit",
+    product_maracuja_short_desc: "Intense and tangy tropical flavor, perfect for juices, mousses, and desserts.",
+    product_maracuja_origin: "Origin: Manica",
+    product_caju_name: "Cashew Nut",
+    product_caju_short_desc: "Roasted and salted cashew nuts, a nutritious and delicious snack.",
+    product_caju_origin: "Origin: Nampula",
+    product_graobico_name: "Chickpea",
+    product_graobico_short_desc: "Versatile and protein-rich, great for curries, salads, and homemade hummus.",
+    product_graobico_origin: "Origin: Sofala",
+    product_piripiri_name: "Chili Pepper",
+    product_piripiri_short_desc: "Small but mighty, the essential spicy touch for dishes with Mozambican character.",
+    product_piripiri_origin: "Origin: Cabo Delgado",
+    product_salsa_name: "Fresh Parsley",
+    product_salsa_short_desc: "Fresh and aromatic herb, ideal for finishing dishes, sauces, and salads.",
+    product_salsa_origin: "Origin: Maputo",
+    product_inhame_name: "Soft Yam",
+    product_inhame_short_desc: "Smooth texture and earthy flavor, an excellent source of energy and fiber.",
+    product_inhame_origin: "Origin: Niassa",
+    product_feijaoverde_name: "Crisp Green Beans",
+    product_feijaoverde_short_desc: "Tender and crunchy pods, perfect for steaming or stir-frying.",
+    product_feijaoverde_origin: "Origin: Manica",
+    product_lichia_name: "Sweet Lychee",
+    product_lichia_short_desc: "Sweet, juicy, and fragrant, an exotic and delicious fruit for special moments.",
+    product_lichia_origin: "Origin: Zambézia",
 
-    // ABOUT US PAGE
+    // PÁGINA SOBRE NÓS
     about_page_title: "Our Story: Cultivating Health and Future",
     about_page_subtitle: "Learn about our mission, vision, and how we are transforming agriculture in Mozambique.",
     about_mission_title: "Our Mission",
@@ -431,7 +611,7 @@ const translations = {
     about_cta_button1: "View Our Products",
     about_cta_button2: "Talk to Us",
 
-    // BLOG PAGE
+    // PÁGINA DE BLOG
     blog_page_title: "News and Farming Tips",
     blog_page_subtitle: "Stay informed about organic farming, healthy recipes, and news from KUKUTA AGRI.",
     blog_search_placeholder: "Search articles...",
@@ -455,7 +635,7 @@ const translations = {
     blog_newsletter_title: "Subscribe to Our Newsletter",
     blog_newsletter_desc: "Receive the latest news, recipes, and organic farming tips directly in your email!",
 
-    // SUSTAINABILITY PAGE
+    // PÁGINA DE SUSTENTABILIDADE
     sust_page_title: "Cultivating a Sustainable Future",
     sust_page_subtitle: "Learn about our environmental practices and commitment to a greener planet for future generations.",
     sust_commitment_title: "Our Commitment to the Environment",
@@ -498,7 +678,7 @@ const translations = {
     sust_goal3_desc: "To contribute significantly to national reforestation",
     sust_goals_button: "Join Our Mission",
 
-    // CONTACTS PAGE
+    // PÁGINA DE CONTACTOS
     contact_page_title: "Get in Touch With Us",
     contact_page_subtitle: "We are here to help you. Talk to us about products, partnerships, or any questions.",
     contact_info_title: "How You Can Find Us",
@@ -526,7 +706,7 @@ const translations = {
     contact_faq2_q: "Do you deliver nationwide?",
     contact_faq2_a: "Yes, we deliver to all 11 provinces of Mozambique. Delivery times vary between 1-3 days for Maputo and surrounding areas, and 3-7 days for other provinces, depending on location and transport availability.",
 
-    // FOOTER
+    // RODAPÉ
     footer_description: "Cultivating Mozambique's future with high-quality organic products. The best for your home.",
     footer_navigation: "Navigation",
     footer_support: "Support",
@@ -537,14 +717,14 @@ const translations = {
     footer_address: "Maputo, Mozambique",
     footer_copyright: "© 2025 KUKUTA AGRI. All rights reserved.",
 
-    // PRODUCT TAGS
+    // TAGS DE PRODUTOS
     tag_grains: "Grains",
     tag_vegetables: "Vegetables",
     tag_cereals: "Cereals",
     tag_fruits: "Fruits",
     tag_tubers: "Tubers",
 
-    // GENERAL BUTTONS
+    // BOTÕES GERAIS
     btn_view_details: "View Details",
     btn_contact: "Contact",
     btn_learn_more: "Learn More",
@@ -554,7 +734,7 @@ const translations = {
   },
 
   fr: {
-    // NAVIGATION
+    // NAVEGAÇÃO
     nav_home: "Accueil",
     nav_about: "À Propos",
     nav_products: "Nos Produits",
@@ -563,7 +743,7 @@ const translations = {
     nav_contact: "Contact",
     nav_learn_more: "En savoir plus",
 
-    // HOMEPAGE
+    // PÁGINA INICIAL
     hero_title_main: "La saveur qui vient de la terre",
     hero_title_highlight: "directement chez vous.",
     hero_slide1_title: "La saveur qui vient de la terre",
@@ -584,7 +764,7 @@ const translations = {
     hero_btn_products: "Voir Produits",
     hero_btn_story: "Notre Histoire",
 
-    // DIFFERENTIALS
+    // DIFERENCIAIS
     differentials_title: "Nos Avantages",
     differentials_subtitle: "Ce qui fait de KUKUTA AGRI votre meilleur choix",
     differential1_title: "100% Bio",
@@ -600,7 +780,7 @@ const translations = {
     differential4_description: "Pratiques agricoles qui prennent soin de l'environnement et de l'avenir.",
     differential4_link: "Nos Pratiques →",
 
-    // ADVANTAGES
+    // VANTAGENS
     advantages_title: "Pourquoi Choisir KUKUTA AGRI?",
     advantage1_title: "Goût Authentique",
     advantage1_description: "Redécouvrez le vrai goût des aliments, cultivés avec soin et respect de la nature.",
@@ -609,7 +789,7 @@ const translations = {
     advantage3_title: "Soutien Communautaire",
     advantage3_description: "En achetant chez nous, vous investissez dans le développement durable des communautés agricoles mozambicaines.",
 
-    // FEATURED PRODUCTS (HOMEPAGE)
+    // PRODUTOS EM DESTAQUE (PÁGINA INICIAL)
     featured_products_title: "Produits Vedettes",
     featured_products_subtitle: "Découvrez nos produits les plus demandés",
     product_feijao_name: "Haricots Beurre Premium",
@@ -623,7 +803,7 @@ const translations = {
     product_milho_origin: "Origine: Zambézia",
     btn_view_all_products: "Voir Tous les Produits",
 
-    // TESTIMONIALS
+    // TESTEMUNHOS
     testimonials_title: "Ce Que Disent Nos Clients",
     testimonial_text: "Depuis que j'ai commencé à acheter chez KUKUTA AGRI, ma famille a redécouvert le plaisir de manger des légumes. La fraîcheur et la saveur sont incomparables. Je me sens bien de savoir que j'offre le meilleur pour eux.",
     testimonial_author: "Ana Silva",
@@ -645,7 +825,7 @@ const translations = {
     newsletter_btn: "S'abonner",
     newsletter_terms: "En vous abonnant, vous acceptez nos conditions de confidentialité.",
 
-    // PRODUCTS PAGE
+    // PÁGINA DE PRODUTOS
     products_page_title: "Découvrez Notre Récolte",
     products_page_subtitle: "Découvrez notre sélection de produits bio, frais et cultivés avec passion.",
     products_search_placeholder: "Rechercher des produits...",
@@ -672,8 +852,98 @@ const translations = {
     product_batata_name: "Pomme de Terre Reno Selecta",
     product_batata_short_desc: "Polyvalente et savoureuse, parfaite pour cuire, frire ou rôtir. Un classique en cuisine.",
     product_batata_origin: "Origine: Tete",
+    product_mandioca_name: "Manioc Frais",
+    product_mandioca_short_desc: "La base énergétique du Mozambique, parfaite pour le matapa ou la farine.",
+    product_mandioca_origin: "Origine: Inhambane",
+    product_batatadoce_name: "Patate Douce Orange",
+    product_batatadoce_short_desc: "Naturellement douce et riche en vitamines, idéale pour rôtir ou bouillir.",
+    product_batatadoce_origin: "Origine: Gaza",
+    product_amendoim_name: "Arachide Nationale",
+    product_amendoim_short_desc: "Riche en protéines et en saveur, idéale pour le curry d'arachide ou comme en-cas.",
+    product_amendoim_origin: "Origine: Nampula",
+    product_couve_name: "Chou Vert Biologique",
+    product_couve_short_desc: "Feuilles tendres et nutritives, essentielles pour un repas sain et complet.",
+    product_couve_origin: "Origine: Manica",
+    product_cebola_name: "Oignon Rouge Intense",
+    product_cebola_short_desc: "Saveur forte et couleur vibrante, la base parfaite pour tout sauté ou salade.",
+    product_cebola_origin: "Origine: Tete",
+    product_banana_name: "Banane Argentée Douce",
+    product_banana_short_desc: "Juste ce qu'il faut de douceur, une source naturelle de potassium et d'énergie pour votre journée.",
+    product_banana_origin: "Origine: Zambézia",
+    product_cenoura_name: "Carotte Biologique",
+    product_cenoura_short_desc: "Croquantes et douces, riches en bêta-carotène pour une vision saine.",
+    product_cenoura_origin: "Origine: Maputo",
+    product_repolho_name: "Chou Vert Frais",
+    product_repolho_short_desc: "Polyvalent pour les salades, les soupes et les plats cuisinés. Une source de fibres.",
+    product_repolho_origin: "Origine: Manica",
+    product_pimento_name: "Poivron Tricolore",
+    product_pimento_short_desc: "Un mélange coloré et savoureux pour égayer vos plats.",
+    product_pimento_origin: "Origine: Sofala",
+    product_abobora_name: "Courge Butternut",
+    product_abobora_short_desc: "Chair crémeuse et sucrée, parfaite pour des soupes et des rôtis nutritifs.",
+    product_abobora_origin: "Origine: Gaza",
+    product_laranja_name: "Orange Pera Douce",
+    product_laranja_short_desc: "Juteuses et pleines de vitamine C pour renforcer votre immunité.",
+    product_laranja_origin: "Origine: Inhambane",
+    product_limao_name: "Citron de Sicile",
+    product_limao_short_desc: "Arôme intense et jus acide, idéal pour les assaisonnements, les boissons et les desserts.",
+    product_limao_origin: "Origine: Manica",
+    product_gengibre_name: "Gingembre Frais",
+    product_gengibre_short_desc: "Saveur épicée et aromatique aux propriétés anti-inflammatoires. Idéal pour les tisanes.",
+    product_gengibre_origin: "Origine: Sofala",
+    product_arroz_name: "Riz Aiguille National",
+    product_arroz_short_desc: "L'accompagnement parfait pour tout plat mozambicain, léger et savoureux.",
+    product_arroz_origin: "Origine: Zambézia",
+    product_manga_name: "Mangue Palmer Bio",
+    product_manga_short_desc: "Douce, juteuse et sans fibres, la reine des fruits tropicaux du Mozambique.",
+    product_manga_origin: "Origine: Nampula",
+    product_melancia_name: "Pastèque Rayée Fraîche",
+    product_melancia_short_desc: "Rafraîchissante et hydratante, parfaite pour les chaudes journées d'été.",
+    product_melancia_origin: "Origine: Gaza",
+    product_nhemba_name: "Haricot Niébé Traditionnel",
+    product_nhemba_short_desc: "Nutritif et savoureux, essentiel dans la cuisine mozambicaine pour des plats riches.",
+    product_nhemba_origin: "Origine: Tete",
+    product_quiabo_name: "Gombo Vert et Tendre",
+    product_quiabo_short_desc: "Frais et non gluant, parfait pour les currys, les soupes et les accompagnements savoureux.",
+    product_quiabo_origin: "Origine: Inhambane",
+    product_beringela_name: "Aubergine Brillante",
+    product_beringela_short_desc: "Ferme et brillante, parfaite pour les rôtis, les ragoûts et les plats végétariens.",
+    product_beringela_origin: "Origine: Maputo",
+    product_pepino_name: "Concombre Croquant",
+    product_pepino_short_desc: "Rafraîchissant et croquant, idéal pour les salades d'été et les jus détox.",
+    product_pepino_origin: "Origine: Manica",
+    product_alho_name: "Ail National",
+    product_alho_short_desc: "Aromatique et piquant, le condiment indispensable de toute cuisine mozambicaine.",
+    product_alho_origin: "Origine: Tete",
+    product_mamao_name: "Papaye Douce",
+    product_mamao_short_desc: "Douce et tendre, riche en vitamines et en enzymes digestives pour un petit-déjeuner sain.",
+    product_mamao_origin: "Origine: Inhambane",
+    product_maracuja_name: "Fruit de la Passion",
+    product_maracuja_short_desc: "Saveur tropicale intense et acidulée, parfaite pour les jus, les mousses et les desserts.",
+    product_maracuja_origin: "Origine: Manica",
+    product_caju_name: "Noix de Cajou",
+    product_caju_short_desc: "Noix de cajou grillées et salées, une collation nutritive et délicieuse.",
+    product_caju_origin: "Origine: Nampula",
+    product_graobico_name: "Pois Chiche",
+    product_graobico_short_desc: "Polyvalent et riche en protéines, idéal pour les currys, les salades et le houmous maison.",
+    product_graobico_origin: "Origine: Sofala",
+    product_piripiri_name: "Piment Pili-pili",
+    product_piripiri_short_desc: "Petit mais puissant, la touche épicée essentielle pour les plats au caractère mozambicain.",
+    product_piripiri_origin: "Origine: Cabo Delgado",
+    product_salsa_name: "Persil Frais",
+    product_salsa_short_desc: "Herbe fraîche et aromatique, idéale pour finir les plats, les sauces et les salades.",
+    product_salsa_origin: "Origine: Maputo",
+    product_inhame_name: "Igname Tendre",
+    product_inhame_short_desc: "Texture douce et saveur terreuse, une excellente source d'énergie et de fibres.",
+    product_inhame_origin: "Origine: Niassa",
+    product_feijaoverde_name: "Haricot Vert Croquant",
+    product_feijaoverde_short_desc: "Gousses tendres et croquantes, parfaites pour la cuisson à la vapeur ou à la poêle.",
+    product_feijaoverde_origin: "Origine: Manica",
+    product_lichia_name: "Litchi Doux",
+    product_lichia_short_desc: "Doux, juteux et parfumé, un fruit exotique et délicieux pour des moments spéciaux.",
+    product_lichia_origin: "Origine: Zambézia",
 
-    // ABOUT US PAGE
+    // PÁGINA SOBRE NÓS
     about_page_title: "Notre Histoire : Cultiver la Santé et l'Avenir",
     about_page_subtitle: "Découvrez notre mission, notre vision et comment nous transformons l'agriculture au Mozambique.",
     about_mission_title: "Notre Mission",
@@ -707,7 +977,7 @@ const translations = {
     about_cta_button1: "Voir Nos Produits",
     about_cta_button2: "Nous Contacter",
 
-    // BLOG PAGE
+    // PÁGINA DE BLOG
     blog_page_title: "Actualités et Conseils Agricoles",
     blog_page_subtitle: "Restez informé sur l'agriculture biologique, les recettes saines et les actualités de KUKUTA AGRI.",
     blog_search_placeholder: "Rechercher des articles...",
@@ -731,7 +1001,7 @@ const translations = {
     blog_newsletter_title: "Abonnez-vous à Notre Newsletter",
     blog_newsletter_desc: "Recevez les dernières nouvelles, recettes et conseils sur l'agriculture biologique directement dans votre e-mail !",
 
-    // SUSTAINABILITY PAGE
+    // PÁGINA DE SUSTENTABILIDADE
     sust_page_title: "Cultiver un Avenir Durable",
     sust_page_subtitle: "Découvrez nos pratiques environnementales et notre engagement pour une planète plus verte pour les générations futures.",
     sust_commitment_title: "Notre Engagement envers l'Environnement",
@@ -774,7 +1044,7 @@ const translations = {
     sust_goal3_desc: "Contribuer de manière significative au reboisement national",
     sust_goals_button: "Rejoignez Notre Mission",
 
-    // CONTACTS PAGE
+    // PÁGINA DE CONTACTOS
     contact_page_title: "Contactez-Nous",
     contact_page_subtitle: "Nous sommes là pour vous aider. Parlez-nous de produits, de partenariats ou de toute autre question.",
     contact_info_title: "Comment Nous Trouver",
@@ -802,7 +1072,7 @@ const translations = {
     contact_faq2_q: "Livrez-vous dans tout le pays ?",
     contact_faq2_a: "Oui, nous livrons dans les 11 provinces du Mozambique. Les délais de livraison varient de 1 à 3 jours pour Maputo et ses environs, et de 3 à 7 jours pour les autres provinces, en fonction de l'emplacement et de la disponibilité des transports.",
 
-    // FOOTER
+    // RODAPÉ
     footer_description: "Cultiver l'avenir du Mozambique avec des produits bio de haute qualité. Le meilleur pour votre maison.",
     footer_navigation: "Navigation",
     footer_support: "Support",
@@ -813,14 +1083,14 @@ const translations = {
     footer_address: "Maputo, Mozambique",
     footer_copyright: "© 2025 KUKUTA AGRI. Tous droits réservés.",
 
-    // PRODUCT TAGS
+    // TAGS DE PRODUTOS
     tag_grains: "Grains",
     tag_vegetables: "Légumes",
     tag_cereals: "Céréales",
     tag_fruits: "Fruits",
     tag_tubers: "Tubercules",
 
-    // GENERAL BUTTONS
+    // BOTÕES GERAIS
     btn_view_details: "Voir Détails",
     btn_contact: "Contact",
     btn_learn_more: "En Savoir Plus",
@@ -830,7 +1100,7 @@ const translations = {
   },
 
   ar: {
-    // NAVIGATION
+    // NAVEGAÇÃO
     nav_home: "الرئيسية",
     nav_about: "من نحن",
     nav_products: "منتجاتنا",
@@ -839,7 +1109,7 @@ const translations = {
     nav_contact: "اتصل بنا",
     nav_learn_more: "اعرف أكثر",
 
-    // HOMEPAGE
+    // PÁGINA INICIAL
     hero_title_main: "نكهة تأتي من الأرض",
     hero_title_highlight: "مباشرة إلى منزلك.",
     hero_slide1_title: "نكهة تأتي من الأرض",
@@ -860,7 +1130,7 @@ const translations = {
     hero_btn_products: "عرض المنتجات",
     hero_btn_story: "قصتنا",
 
-    // DIFFERENTIALS
+    // DIFERENCIAIS
     differentials_title: "مميزاتنا",
     differentials_subtitle: "ما يجعل كوكوتا أجري خيارك الأفضل",
     differential1_title: "عضوي 100%",
@@ -876,7 +1146,7 @@ const translations = {
     differential4_description: "ممارسات زراعية تهتم بالبيئة والمستقبل.",
     differential4_link: "ممارساتنا ←",
 
-    // ADVANTAGES
+    // VANTAGENS
     advantages_title: "لماذا تختار كوكوتا أجري؟",
     advantage1_title: "نكهة أصيلة",
     advantage1_description: "أعد اكتشاف الطعم الحقيقي للطعام، مزروع بعناية واحترام للطبيعة.",
@@ -885,7 +1155,7 @@ const translations = {
     advantage3_title: "دعم المجتمع",
     advantage3_description: "بالشراء منا، تستثمر في التنمية المستدامة للمجتمعات الزراعية الموزمبيقية.",
 
-    // FEATURED PRODUCTS (HOMEPAGE)
+    // PRODUTOS EM DESTAQUE (PÁGINA INICIAL)
     featured_products_title: "المنتجات المميزة",
     featured_products_subtitle: "تعرف على منتجاتنا الأكثر طلباً",
     product_feijao_name: "فاصولياء الزبدة الممتازة",
@@ -899,7 +1169,7 @@ const translations = {
     product_milho_origin: "المنشأ: زامبيزيا",
     btn_view_all_products: "عرض جميع المنتجات",
 
-    // TESTIMONIALS
+    // TESTEMUNHOS
     testimonials_title: "ماذا يقول عملاؤنا",
     testimonial_text: "منذ أن بدأت الشراء من كوكوتا أجري، أعادت عائلتي اكتشاف متعة أكل الخضروات. النضارة والطعم لا يُضاهيان. أشعر بالرضا لعلمي أنني أقدم لهم الأفضل.",
     testimonial_author: "آنا سيلفا",
@@ -921,7 +1191,7 @@ const translations = {
     newsletter_btn: "اشتراك",
     newsletter_terms: "بالاشتراك، توافق على شروط الخصوصية الخاصة بنا.",
 
-    // PRODUCTS PAGE
+    // PÁGINA DE PRODUTOS
     products_page_title: "استكشف حصادنا",
     products_page_subtitle: "اكتشف مجموعتنا المختارة من المنتجات العضوية والطازجة المزروعة بشغف.",
     products_search_placeholder: "ابحث عن المنتجات...",
@@ -948,8 +1218,98 @@ const translations = {
     product_batata_name: "بطاطس رينو مختارة",
     product_batata_short_desc: "متعددة الاستخدامات ولذيذة، مثالية للسلق أو القلي أو الشوي. طبق كلاسيكي في المطبخ.",
     product_batata_origin: "المنشأ: تيتي",
-    
-    // ABOUT US PAGE
+    product_mandioca_name: "كسافا طازجة",
+    product_mandioca_short_desc: "أساس الطاقة في موزمبيق، مثالية للماتابا أو الدقيق.",
+    product_mandioca_origin: "المنشأ: إنهامبان",
+    product_batatadoce_name: "بطاطا حلوة برتقالية",
+    product_batatadoce_short_desc: "حلوة بشكل طبيعي وغنية بالفيتامينات، مثالية للشوي أو السلق.",
+    product_batatadoce_origin: "المنشأ: غزة",
+    product_amendoim_name: "فول سوداني وطني",
+    product_amendoim_short_desc: "غني بالبروتين والنكهة، رائع لكاري الفول السوداني أو كوجبة خفيفة.",
+    product_amendoim_origin: "المنشأ: نامبولا",
+    product_couve_name: "كرنب عضوي",
+    product_couve_short_desc: "أوراق طرية ومغذية، ضرورية لوجبة صحية وكاملة.",
+    product_couve_origin: "المنشأ: مانيكا",
+    product_cebola_name: "بصل أحمر كثيف",
+    product_cebola_short_desc: "نكهة قوية ولون نابض بالحياة، القاعدة المثالية لأي طبق مقلي أو سلطة.",
+    product_cebola_origin: "المنشأ: تيتي",
+    product_banana_name: "موز فضي حلو",
+    product_banana_short_desc: "حلاوة معتدلة، مصدر طبيعي للبوتاسيوم والطاقة ليومك.",
+    product_banana_origin: "المنشأ: زامبيزيا",
+    product_cenoura_name: "جزر عضوي",
+    product_cenoura_short_desc: "مقرمش وحلو، غني بالبيتا كاروتين لرؤية صحية.",
+    product_cenoura_origin: "المنشأ: مابوتو",
+    product_repolho_name: "ملفوف أخضر طازج",
+    product_repolho_short_desc: "متعدد الاستخدامات للسلطات والشوربات والأطباق المطبوخة. مصدر للألياف.",
+    product_repolho_origin: "المنشأ: مانيكا",
+    product_pimento_name: "فلفل حلو ثلاثي الألوان",
+    product_pimento_short_desc: "مزيج ملون ولذيذ لإضفاء الحيوية على أطباقك.",
+    product_pimento_origin: "المنشأ: سوفالا",
+    product_abobora_name: "قرع الجوز",
+    product_abobora_short_desc: "لب كريمي وحلو، مثالي للشوربات والمشويات المغذية.",
+    product_abobora_origin: "المنشأ: غزة",
+    product_laranja_name: "برتقال بيرا الحلو",
+    product_laranja_short_desc: "غني بالعصارة ومليء بفيتامين سي لتعزيز مناعتك.",
+    product_laranja_origin: "المنشأ: إنهامبان",
+    product_limao_name: "ليمون صقلي",
+    product_limao_short_desc: "رائحة قوية وعصير حامضي، مثالي للتوابل والمشروبات والحلويات.",
+    product_limao_origin: "المنشأ: مانيكا",
+    product_gengibre_name: "زنجبيل طازج",
+    product_gengibre_short_desc: "نكهة حارة وعطرية مع خصائص مضادة للالتهابات. رائع للشاي.",
+    product_gengibre_origin: "المنشأ: سوفالا",
+    product_arroz_name: "أرز إبرة وطني",
+    product_arroz_short_desc: "المرافق المثالي لأي طبق موزمبيقي، منفوش ولذيذ.",
+    product_arroz_origin: "المنشأ: زامبيزيا",
+    product_manga_name: "مانجو بالمر العضوي",
+    product_manga_short_desc: "حلوة، غنية بالعصارة وبدون ألياف، ملكة الفواكه الاستوائية من موزمبيق.",
+    product_manga_origin: "المنشأ: نامبولا",
+    product_melancia_name: "بطيخ مخطط طازج",
+    product_melancia_short_desc: "منعش ومرطب، مثالي لأيام الصيف الحارة.",
+    product_melancia_origin: "المنشأ: غزة",
+    product_nhemba_name: "فاصوليا اللوبيا التقليدية",
+    product_nhemba_short_desc: "مغذية ولذيذة، أساسية في المطبخ الموزمبيقي للأطباق الغنية.",
+    product_nhemba_origin: "المنشأ: تيتي",
+    product_quiabo_name: "بامية خضراء طرية",
+    product_quiabo_short_desc: "طازجة وبدون لزوجة، مثالية للكاري والشوربات والأطباق الجانبية اللذيذة.",
+    product_quiabo_origin: "المنشأ: إنهامبان",
+    product_beringela_name: "باذنجان لامع",
+    product_beringela_short_desc: "صلب ولامع، مثالي للمشويات واليخنات والأطباق النباتية.",
+    product_beringela_origin: "المنشأ: مابوتو",
+    product_pepino_name: "خيار مقرمش",
+    product_pepino_short_desc: "منعش ومقرمش، مثالي لسلطات الصيف وعصائر الديتوكس.",
+    product_pepino_origin: "المنشأ: مانيكا",
+    product_alho_name: "ثوم وطني",
+    product_alho_short_desc: "عطري ولاذع، التوابل التي لا غنى عنها في أي مطبخ موزمبيقي.",
+    product_alho_origin: "المنشأ: تيتي",
+    product_mamao_name: "بابايا حلوة",
+    product_mamao_short_desc: "حلوة وطرية، غنية بالفيتامينات والإنزيمات الهاضمة لوجبة إفطار صحية.",
+    product_mamao_origin: "المنشأ: إنهامبان",
+    product_maracuja_name: "باشن فروت",
+    product_maracuja_short_desc: "نكهة استوائية قوية ومنعشة، مثالية للعصائر والموس والحلويات.",
+    product_maracuja_origin: "المنشأ: مانيكا",
+    product_caju_name: "كاجو",
+    product_caju_short_desc: "كاجو محمص ومملح، وجبة خفيفة مغذية ولذيذة.",
+    product_caju_origin: "المنشأ: نامبولا",
+    product_graobico_name: "حمص",
+    product_graobico_short_desc: "متعدد الاستخدامات وغني بالبروتين، رائع للكاري والسلطات والحمص المصنوع منزليًا.",
+    product_graobico_origin: "المنشأ: سوفالا",
+    product_piripiri_name: "فلفل حار",
+    product_piripiri_short_desc: "صغير ولكنه قوي، اللمسة الحارة الأساسية للأطباق ذات الطابع الموزمبيقي.",
+    product_piripiri_origin: "المنشأ: كابو ديلغادو",
+    product_salsa_name: "بقدونس طازج",
+    product_salsa_short_desc: "عشبة طازجة وعطرية، مثالية لتزيين الأطباق والصلصات والسلطات.",
+    product_salsa_origin: "المنشأ: مابوتو",
+    product_inhame_name: "يام طري",
+    product_inhame_short_desc: "قوام ناعم ونكهة ترابية، مصدر ممتاز للطاقة والألياف.",
+    product_inhame_origin: "المنشأ: نياسا",
+    product_feijaoverde_name: "فاصوليا خضراء مقرمشة",
+    product_feijaoverde_short_desc: "قرون طرية ومقرمشة، مثالية للطهي بالبخار أو القلي السريع.",
+    product_feijaoverde_origin: "المنشأ: مانيكا",
+    product_lichia_name: "ليتشي حلو",
+    product_lichia_short_desc: "فاكهة استوائية لذيذة وحلوة وعطرة، مثالية للمناسبات الخاصة.",
+    product_lichia_origin: "المنشأ: زامبيزيا",
+
+    // PÁGINA SOBRE NÓS
     about_page_title: "قصتنا: زراعة الصحة والمستقبل",
     about_page_subtitle: "تعرف على مهمتنا ورؤيتنا وكيف نغير وجه الزراعة في موزمبيق.",
     about_mission_title: "مهمتنا",
@@ -983,7 +1343,7 @@ const translations = {
     about_cta_button1: "عرض منتجاتنا",
     about_cta_button2: "تحدث إلينا",
 
-    // BLOG PAGE
+    // PÁGINA DE BLOG
     blog_page_title: "أخبار ونصائح زراعية",
     blog_page_subtitle: "ابق على اطلاع على الزراعة العضوية والوصفات الصحية وأخبار كوكوتا أجري.",
     blog_search_placeholder: "ابحث في المقالات...",
@@ -1007,7 +1367,7 @@ const translations = {
     blog_newsletter_title: "اشترك في نشرتنا الإخبارية",
     blog_newsletter_desc: "احصل على آخر الأخبار والوصفات ونصائح الزراعة العضوية مباشرة في بريدك الإلكتروني!",
 
-    // SUSTAINABILITY PAGE
+    // PÁGINA DE SUSTENTABILIDADE
     sust_page_title: "زراعة مستقبل مستدام",
     sust_page_subtitle: "تعرف على ممارساتنا البيئية والتزامنا بكوكب أكثر خضرة للأجيال القادمة.",
     sust_commitment_title: "التزامنا تجاه البيئة",
@@ -1050,7 +1410,7 @@ const translations = {
     sust_goal3_desc: "المساهمة بشكل كبير في إعادة التشجير الوطني",
     sust_goals_button: "انضم إلى مهمتنا",
 
-    // CONTACTS PAGE
+    // PÁGINA DE CONTACTOS
     contact_page_title: "تواصل معنا",
     contact_page_subtitle: "نحن هنا لمساعدتك. تحدث إلينا حول المنتجات أو الشراكات أو أي أسئلة.",
     contact_info_title: "كيف يمكنك أن تجدنا",
@@ -1078,7 +1438,7 @@ const translations = {
     contact_faq2_q: "هل تقومون بالتوصيل على مستوى البلاد؟",
     contact_faq2_a: "نعم، نقوم بالتوصيل إلى جميع مقاطعات موزمبيق الـ 11. تختلف أوقات التسليم بين 1-3 أيام لمابوتو والمناطق المحيطة بها، و3-7 أيام للمقاطعات الأخرى، حسب الموقع وتوافر وسائل النقل.",
 
-    // FOOTER
+    // RODAPÉ
     footer_description: "زراعة مستقبل موزمبيق بمنتجات عضوية عالية الجودة. الأفضل لمنزلك.",
     footer_navigation: "التنقل",
     footer_support: "الدعم",
@@ -1089,14 +1449,14 @@ const translations = {
     footer_address: "مابوتو، موزمبيق",
     footer_copyright: "© 2025 كوكوتا أجري. جميع الحقوق محفوظة.",
 
-    // PRODUCT TAGS
+    // TAGS DE PRODUTOS
     tag_grains: "حبوب",
     tag_vegetables: "خضروات",
     tag_cereals: "حبوب غذائية",
     tag_fruits: "فواكه",
     tag_tubers: "درنات",
 
-    // GENERAL BUTTONS
+    // BOTÕES GERAIS
     btn_view_details: "عرض التفاصيل",
     btn_contact: "اتصل بنا",
     btn_learn_more: "اعرف أكثر",
@@ -1106,7 +1466,7 @@ const translations = {
   },
 
   zh: {
-    // NAVIGATION
+    // NAVEGAÇÃO
     nav_home: "首页",
     nav_about: "关于我们",
     nav_products: "我们的产品",
@@ -1115,7 +1475,7 @@ const translations = {
     nav_contact: "联系我们",
     nav_learn_more: "了解更多",
 
-    // HOMEPAGE
+    // PÁGINA INICIAL
     hero_title_main: "来自大地的味道",
     hero_title_highlight: "直达您的家中。",
     hero_slide1_title: "来自大地的味道",
@@ -1136,7 +1496,7 @@ const translations = {
     hero_btn_products: "查看产品",
     hero_btn_story: "我们的故事",
 
-    // DIFFERENTIALS
+    // DIFERENCIAIS
     differentials_title: "我们的优势",
     differentials_subtitle: "使KUKUTA AGRI成为您最佳选择的原因",
     differential1_title: "100%有机",
@@ -1152,7 +1512,7 @@ const translations = {
     differential4_description: "关爱环境和未来的农业实践。",
     differential4_link: "我们的实践 →",
 
-    // ADVANTAGES
+    // VANTAGENS
     advantages_title: "为什么选择KUKUTA AGRI？",
     advantage1_title: "正宗口味",
     advantage1_description: "重新发现食物的真正味道，用心种植，尊重自然。",
@@ -1161,7 +1521,7 @@ const translations = {
     advantage3_title: "社区支持",
     advantage3_description: "通过向我们购买，您投资于莫桑比克农业社区的可持续发展。",
 
-    // FEATURED PRODUCTS (HOMEPAGE)
+    // PRODUTOS EM DESTAQUE (PÁGINA INICIAL)
     featured_products_title: "特色产品",
     featured_products_subtitle: "了解我们最受欢迎的产品",
     product_feijao_name: "优质奶油豆",
@@ -1175,7 +1535,7 @@ const translations = {
     product_milho_origin: "产地：赞比西亚",
     btn_view_all_products: "查看所有产品",
 
-    // TESTIMONIALS
+    // TESTEMUNHOS
     testimonials_title: "客户评价",
     testimonial_text: "自从我开始从KUKUTA AGRI购买，我的家人重新发现了吃蔬菜的乐趣。新鲜度和味道无与伦比。知道我为他们提供最好的，我感到很开心。",
     testimonial_author: "安娜·席尔瓦",
@@ -1197,7 +1557,7 @@ const translations = {
     newsletter_btn: "订阅",
     newsletter_terms: "订阅即表示您同意我们的隐私条款。",
 
-    // PRODUCTS PAGE
+    // PÁGINA DE PRODUTOS
     products_page_title: "探索我们的收成",
     products_page_subtitle: "发现我们精心挑选的有机、新鲜、用心种植的产品。",
     products_search_placeholder: "搜索产品...",
@@ -1224,8 +1584,98 @@ const translations = {
     product_batata_name: "精选雷诺土豆",
     product_batata_short_desc: "用途广泛，味道鲜美，非常适合煮、炸或烤。厨房经典之选。",
     product_batata_origin: "产地：太特",
+    product_mandioca_name: "新鲜木薯",
+    product_mandioca_short_desc: "莫桑比克的能量基础，非常适合制作马塔帕或面粉。",
+    product_mandioca_origin: "产地：伊尼扬巴内",
+    product_batatadoce_name: "橙色甘薯",
+    product_batatadoce_short_desc: "天然甜味，富含维生素，非常适合烘烤或煮沸。",
+    product_batatadoce_origin: "产地：加扎",
+    product_amendoim_name: "国产花生",
+    product_amendoim_short_desc: "富含蛋白质和风味，非常适合制作花生咖喱或作为零食。",
+    product_amendoim_origin: "产地：楠普拉",
+    product_couve_name: "有机羽衣甘蓝",
+    product_couve_short_desc: "鲜嫩营养的叶子，是健康完整膳食的必需品。",
+    product_couve_origin: "产地：马尼卡",
+    product_cebola_name: "浓味红洋葱",
+    product_cebola_short_desc: "味道浓郁，颜色鲜艳，是任何炒菜或沙拉的完美基础。",
+    product_cebola_origin: "产地：太特",
+    product_banana_name: "甜银香蕉",
+    product_banana_short_desc: "甜度适中，是为您的一天提供钾和能量的天然来源。",
+    product_banana_origin: "产地：赞比西亚",
+    product_cenoura_name: "有机胡萝卜",
+    product_cenoura_short_desc: "香脆甘甜，富含β-胡萝卜素，有益于视力健康。",
+    product_cenoura_origin: "产地：马普托",
+    product_repolho_name: "新鲜绿甘蓝",
+    product_repolho_short_desc: "用途广泛，适用于沙拉、汤和熟食。纤维的来源。",
+    product_repolho_origin: "产地：马尼卡",
+    product_pimento_name: "三色甜椒",
+    product_pimento_short_desc: "色彩缤纷、味道鲜美的混合物，为您的菜肴增添活力。",
+    product_pimento_origin: "产地：索法拉",
+    product_abobora_name: "冬南瓜",
+    product_abobora_short_desc: "奶油状的甜果肉，非常适合制作营养丰富的汤和烤菜。",
+    product_abobora_origin: "产地：加扎",
+    product_laranja_name: "甜佩拉橙",
+    product_laranja_short_desc: "多汁且富含维生素C，可增强您的免疫力。",
+    product_laranja_origin: "产地：伊尼扬巴内",
+    product_limao_name: "西西里柠檬",
+    product_limao_short_desc: "香气浓郁，汁液酸爽，是调味料、饮料和甜点的理想选择。",
+    product_limao_origin: "产地：马尼卡",
+    product_gengibre_name: "生姜",
+    product_gengibre_short_desc: "辛辣芳香，具有抗炎特性。非常适合泡茶。",
+    product_gengibre_origin: "产地：索法拉",
+    product_arroz_name: "国产长粒米",
+    product_arroz_short_desc: "任何莫桑比克菜肴的完美搭配，松软可口。",
+    product_arroz_origin: "产地：赞比西亚",
+    product_manga_name: "有机帕尔默芒果",
+    product_manga_short_desc: "香甜多汁，无纤维，莫桑比克热带水果之后。",
+    product_manga_origin: "产地：楠普拉",
+    product_melancia_name: "新鲜条纹西瓜",
+    product_melancia_short_desc: "清爽解渴，非常适合炎热的夏天。",
+    product_melancia_origin: "产地：加扎",
+    product_nhemba_name: "传统豇豆",
+    product_nhemba_short_desc: "营养美味，是莫桑比克美食中制作丰盛菜肴的必备品。",
+    product_nhemba_origin: "产地：太特",
+    product_quiabo_name: "鲜嫩秋葵",
+    product_quiabo_short_desc: "新鲜无粘液，非常适合咖喱、汤和美味配菜。",
+    product_quiabo_origin: "产地：伊尼扬巴内",
+    product_beringela_name: "光亮茄子",
+    product_beringela_short_desc: "紧实光亮，非常适合烤、炖和素食菜肴。",
+    product_beringela_origin: "产地：马普托",
+    product_pepino_name: "脆黄瓜",
+    product_pepino_short_desc: "清爽脆口，非常适合夏季沙拉和排毒果汁。",
+    product_pepino_origin: "产地：马尼卡",
+    product_alho_name: "国产大蒜",
+    product_alho_short_desc: "芳香辛辣，是任何莫桑比克厨房不可或缺的调味品。",
+    product_alho_origin: "产地：太特",
+    product_mamao_name: "甜木瓜",
+    product_mamao_short_desc: "香甜柔软，富含维生素和消化酶，是健康早餐的理想选择。",
+    product_mamao_origin: "产地：伊尼扬巴内",
+    product_maracuja_name: "百香果",
+    product_maracuja_short_desc: "浓郁扑鼻的热带风味，非常适合制作果汁、慕斯和甜点。",
+    product_maracuja_origin: "产地：马尼卡",
+    product_caju_name: "腰果",
+    product_caju_short_desc: "烤咸腰果，营养美味的零食。",
+    product_caju_origin: "产地：楠普拉",
+    product_graobico_name: "鹰嘴豆",
+    product_graobico_short_desc: "用途广泛，富含蛋白质，非常适合制作咖喱、沙拉和自制鹰嘴豆泥。",
+    product_graobico_origin: "产地：索法拉",
+    product_piripiri_name: "辣椒",
+    product_piripiri_short_desc: "小而强大，是具有莫桑比克特色的菜肴必不可少的辛辣风味。",
+    product_piripiri_origin: "产地：德尔加杜角",
+    product_salsa_name: "新鲜欧芹",
+    product_salsa_short_desc: "清新芳香的香草，非常适合点缀菜肴、酱汁和沙拉。",
+    product_salsa_origin: "产地：马普托",
+    product_inhame_name: "软山药",
+    product_inhame_short_desc: "质地光滑，味道朴实，是能量和纤维的绝佳来源。",
+    product_inhame_origin: "产地：尼亚萨",
+    product_feijaoverde_name: "脆青豆",
+    product_feijaoverde_short_desc: "鲜嫩脆爽的豆荚，非常适合清蒸或翻炒。",
+    product_feijaoverde_origin: "产地：马尼卡",
+    product_lichia_name: "甜荔枝",
+    product_lichia_short_desc: "香甜多汁，是一种充满异国情调的美味水果，适合特殊场合。",
+    product_lichia_origin: "产地：赞比西亚",
 
-    // ABOUT US PAGE
+    // PÁGINA SOBRE NÓS
     about_page_title: "我们的故事：培育健康与未来",
     about_page_subtitle: "了解我们的使命、愿景以及我们如何改变莫桑比克的农业。",
     about_mission_title: "我们的使命",
@@ -1259,7 +1709,7 @@ const translations = {
     about_cta_button1: "查看我们的产品",
     about_cta_button2: "联系我们",
 
-    // BLOG PAGE
+    // PÁGINA DE BLOG
     blog_page_title: "新闻与农业技巧",
     blog_page_subtitle: "随时了解有机农业、健康食谱和 KUKUTA AGRI 的最新消息。",
     blog_search_placeholder: "搜索文章...",
@@ -1283,7 +1733,7 @@ const translations = {
     blog_newsletter_title: "订阅我们的新闻通讯",
     blog_newsletter_desc: "直接在您的电子邮件中接收最新的新闻、食谱和有机农业技巧！",
 
-    // SUSTAINABILITY PAGE
+    // PÁGINA DE SUSTENTABILIDADE
     sust_page_title: "培育可持续的未来",
     sust_page_subtitle: "了解我们的环保实践以及我们为子孙后代创造一个更绿色星球的承诺。",
     sust_commitment_title: "我们对环境的承诺",
@@ -1326,7 +1776,7 @@ const translations = {
     sust_goal3_desc: "为国家重新造林做出重大贡献",
     sust_goals_button: "加入我们的使命",
 
-    // CONTACTS PAGE
+    // PÁGINA DE CONTACTOS
     contact_page_title: "联系我们",
     contact_page_subtitle: "我们随时为您提供帮助。请就产品、合作或任何问题与我们联系。",
     contact_info_title: "如何找到我们",
@@ -1354,7 +1804,7 @@ const translations = {
     contact_faq2_q: "你们在全国范围内送货吗？",
     contact_faq2_a: "是的，我们在莫桑比克所有 11 个省份都提供送货服务。马普托及周边地区的送货时间为 1-3 天，其他省份为 3-7 天，具体取决于地点和运输情况。",
 
-    // FOOTER
+    // RODAPÉ
     footer_description: "用高品质有机产品培育莫桑比克的未来。为您的家庭提供最好的。",
     footer_navigation: "导航",
     footer_support: "支持",
@@ -1365,14 +1815,14 @@ const translations = {
     footer_address: "莫桑比克，马普托",
     footer_copyright: "© 2025 KUKUTA AGRI. 版权所有。",
 
-    // PRODUCT TAGS
+    // TAGS DE PRODUTOS
     tag_grains: "谷物",
     tag_vegetables: "蔬菜",
     tag_cereals: "谷类",
     tag_fruits: "水果",
     tag_tubers: "块茎",
 
-    // GENERAL BUTTONS
+    // BOTÕES GERAIS
     btn_view_details: "查看详情",
     btn_contact: "联系我们",
     btn_learn_more: "了解更多",
@@ -1533,7 +1983,13 @@ class TranslationManager {
         } else {
           const icon = element.querySelector('i');
           if (icon && (element.tagName === 'A' || element.tagName === 'BUTTON')) {
-             element.innerHTML = `${translation} ${icon.outerHTML}`;
+            // Preserva o ícone e traduz o texto ao redor dele
+            let textNode = [...element.childNodes].find(node => node.nodeType === Node.TEXT_NODE && node.textContent.trim().length > 0);
+            if (textNode) {
+              textNode.textContent = ' ' + translation;
+            } else {
+               element.innerHTML = icon.outerHTML + ' ' + translation;
+            }
           } else {
             element.innerHTML = translation;
           }
@@ -1647,3 +2103,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Exportar para uso global
 window.translations = translations;
+
